@@ -1,0 +1,414 @@
+@import '/App.css';
+
+section {
+    background: #E5E5E5;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+section .showcase-bagr-icons{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    opacity: 1;
+    margin-top: 80px;
+}
+
+section .showcase-bagr-icons span:nth-child(1) {
+ margin-left: 8px;
+}
+
+section > span {
+ display: flex;
+ position: fixed;
+ right: 0;
+ top: 158px;
+ opacity: 1;
+}
+
+.show-header{
+    display: flex;
+   margin-top: 50px;
+}
+
+section h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.colunm h1{
+   padding-left: 10px;
+}
+.colunm {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 216px;
+    margin-top: 41px;
+    width: 100%;
+    padding: 34px 20px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+    background: url('./images/Rectangle\ 115.svg') 
+    center center/cover no-repeat;
+    height: 143px;
+    width: 275px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.colunm  h1 {
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+.colunm h5 {
+   text-align: center;
+   color: black;
+   padding-top: 30px;
+}
+.colunm p {
+   color: #333;
+}
+
+.col-1 img,
+.col-2 img,
+.col-3 img,
+.col-4 img {
+    position: relative;
+    top: -140px;
+    width: 200px;
+}
+
+
+.col-1 {
+    color: #2B6FF3;
+}
+
+.col-2{
+    background: rgba(243, 153, 17, 0.05);
+    color: #F39911;
+}
+.col-3 {
+    background: rgba(43, 111, 243, 0.05);
+    color: #16B442;
+}
+.col-4 {
+    background: rgba(214, 50, 50, 0.05);
+    color: #D63232;
+}
+
+.rol{
+    height: 478px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 49px;
+    margin-bottom: 69px;
+ }
+
+.rol-bagr-img{
+background: url('./images/Ellipse\ 19.svg')
+center center/cover no-repeat;
+position: absolute;
+height: 200px;
+width: 200px;
+margin-top: -40px;
+ }
+
+.rol span {
+display: flex;
+justify-content: flex-start;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+position: relative;
+top: 20px;
+left: 40px;
+ }
+
+ .rol-bagr-img p {
+    padding-top: 80px;
+    font-size: 14px;
+    padding-left: 25px;
+    color: grey;
+ }
+
+ .rol .rol-header .contri-nme {
+    font-family: Rubik;
+    font-size: 18px;
+     position: relative;
+     top: 40px;
+     left: -170px;
+     z-index: 2;
+ }
+
+ .card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+.countries {
+height: 307px;
+width: 300px;
+box-shadow: 0px 0px 0px 2px  #F1F4FA;
+left: 0px;
+top: 70px;
+position: relative;
+border-radius: 10px;
+ }
+.countries-content{
+   height: 80%;
+   overflow-x: hidden;
+   width: 100%;
+}
+ .countries h5 {
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 20px;
+    
+ }
+ option{
+  display: flex;
+   padding: 20px;
+   justify-content: flex-start;
+ }
+ .rol-1,
+ .rol-2,
+ .rol-3,
+ .rol-4 {
+    width: 300px;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+  }
+ .rol-1:hover,
+ .rol-2:hover,
+ .rol-3:hover, 
+ .rol-4:hover {
+   background: #EEEEEE57;
+ }
+
+
+ .name {
+    padding-left: 20px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    
+ }
+ .result{
+    padding-right: 25px;
+    color: #2B6FF3;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;  
+ }
+
+.card-cubes {
+    width: 300px;
+    position: relative;
+    top: 70px;
+    align-items: center;
+    height: 307px;
+   z-index: 2;
+}
+.flex-one,
+.flex-two,
+.flex-three{
+    display: flex;
+    padding-bottom: 27px;
+}
+
+.cube-1,
+.cube-3,
+.cube-5{
+ margin-right: 10px;
+}
+
+ .cube-1,
+ .cube-2,
+ .cube-3,
+ .cube-4,
+ .cube-5,
+ .cube-6{
+   display: flex;
+    height: 85px;
+    width: 189px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 0px 2px #F1F4FA;
+    text-align: center;
+    justify-content: center;
+    font-size: 5px;
+    align-items: center;
+    flex-direction: column;
+ }
+ .cube-1 p:nth-child(1),
+ .cube-2 p:nth-child(1),
+ .cube-3 p:nth-child(1),
+ .cube-4 p:nth-child(1),
+ .cube-5 p:nth-child(1),
+ .cube-6 p:nth-child(1) {
+font-size: 14px;
+font-family: Rubik;
+color: #777F8D;
+ }
+ 
+.cube-1 p:nth-child(2),
+.cube-2 p:nth-child(2),
+.cube-3 p:nth-child(2),
+.cube-4 p:nth-child(2),
+.cube-5 p:nth-child(2),
+.cube-6 p:nth-child(2) {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+ }
+ 
+ .total-case {
+    color: #2B6FF3;
+ }
+ .active-case {
+    color: #F39911;
+ }
+ .recover {
+    color: #16B442;
+ }
+ .total-death {
+    color: #D63232;
+ }
+ .new-case{
+  color:#2B6FF3;
+ }
+ .new-death{
+    color: #D63232;
+ }
+
+ .covi-map{
+   width: 380px;
+ }
+ .map-image {
+    background: url('./images/Rectangle\ 34.svg')
+    center center/cover  no-repeat;
+    height: 379px;
+    width: 100%;
+    border-radius: 0px;    
+ }
+
+
+
+ @media(max-width : 1200px){
+.colunm {
+   background-color: #FFFFFF;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 50px;
+}
+
+/* .col-1,
+.col-2,
+.col-3, */
+.col-4 {
+margin-top: 80px;   
+}
+
+.rol .rol-header .contri-nme {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+
+  .rol {
+   height: 100%;
+  }
+
+.card {
+   /* flex-wrap: wrap; */
+   height: 100%;
+}
+
+}
+
+@media(max-width : 960px){
+.col-3,
+.col-4 {
+   margin-top: 80px;   
+}
+.covi-map{
+   margin-top: 30px;
+}
+}
+
+
+@media(max-width : 665px){
+   .col-2,
+   .col-3,
+   .col-4 {
+      margin-top: 80px;   
+      }
+}
+   
+
+ @media(max-width: 635px){
+.card-cubes {
+   width: 300px;
+   position: none;
+   top: 70px;
+   align-items: center;
+   height: 307px;
+   margin-top: 50px;
+}
+
+ }
+ @media(max-width: 600px){
+
+.rol .rol-header .contri-nme {
+top: 470px;
+left: -5px;
+z-index: 2;
+}
+.countries {
+margin-bottom: 100px;
+}
+}
+
+ @media(max-width: 490px){
+   .contri-nme {
+    padding-left: 50px;
+   }
+
+   
+ .covi-map{
+  display: none;
+ }
+
+.card-cubes {
+   width: 90%;
+   margin-bottom: 200px;
+}
+ }
+
+ @media(max-width: 370px){
+   .countries {
+      width: 90%;
+   }
+ }
+
+ @media(max-width: 330px){
+  .rol span {
+   left: 2px;
+  }
+ }
+ 

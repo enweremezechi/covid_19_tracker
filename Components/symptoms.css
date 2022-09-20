@@ -1,0 +1,47 @@
+@import '/App.css';
+
+.symptoms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.symptoms p {
+    width: 725px;
+    text-align: left;
+}
+.symptom-header p {
+    height: 39px;
+    width: 197px;
+    border-radius: 30px;
+    background: #E814540F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #E81454;
+    margin-bottom: 35px;
+}
+
+.symptom-header .symptom-infor p{
+   text-align: left;
+}
+
+@media(max-width: 960px) {
+    
+.symptoms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.symptoms .infor-image svg{
+    width: 200px;
+}
+.symptoms p {
+    width: 100%;
+    text-align: left;
+}
+}

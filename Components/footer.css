@@ -1,0 +1,119 @@
+@import '/App.css';
+
+footer {
+text-align: left;
+font-family: Inter;
+font-size: 1px;
+font-weight: 400;
+background: rgba(146, 140, 140, 0.075);
+}
+
+.foot-content{
+display: flex;
+justify-content: space-between;
+text-align: left;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+}
+
+.foot-content h5 {
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+margin-top: 60px;
+}
+
+.foot-about{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.foot-contact{
+    width: 200px;
+    margin-right: 20px;
+}
+.contact-content{
+    width: 100%;
+}
+
+.foot-email{
+    width: 400px;
+}
+.foot-email h5 {
+    margin-bottom: 10px;
+}
+.email-content {
+    width: 100%;
+}
+
+#stroke {
+    width: 100%;
+    background-color: gray;
+    height: 1px;
+}
+
+.foot-email svg {
+    position: relative;
+    right: -95%;
+} 
+
+.footer-terms{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding-bottom: 10px;
+}
+
+.footer-terms p {
+    padding-top: 15px;
+}
+
+@media(max-width: 860px){   
+.foot-content{
+    display: flex;
+    text-align: left;
+    padding: 10px;
+  
+}
+
+.foot-content h5 {
+    margin-top: 10px;
+}
+    
+
+.footer-terms{
+    margin-top: 50px;
+}
+}
+
+@media(max-width: 414px){
+ 
+.foot-content{
+    flex-wrap: wrap;
+    
+}
+
+.footer-terms p {
+    padding-top: 15px;
+}
+
+.footer-terms{
+    margin-top: 10px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+}

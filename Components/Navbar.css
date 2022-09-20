@@ -1,0 +1,155 @@
+@import '/App.css';
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+}
+
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-toggler {
+    display: block;
+    width: 100%;
+    transition: 0.5s ease-in;
+    left: -100%;
+    height: 50vh;
+}
+/* hamburger */
+.hamburger{
+    display: none;
+}
+.hamburger  div {
+    width: 25px;
+    background: gray;
+    height: 1px;
+    margin: 6px;
+    padding: 1px;
+    border-radius: 10px;
+}
+/* hamburger */
+.navbar #logo {
+    display: flex;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-right: 10%;
+}
+
+.navbar #logo span {
+    color: #2B6FF3;
+    margin: 0;
+    padding: 5px 10px;
+    display: block;
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar .nav-links ul li {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar .date {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background: #E5E5E5;
+    width: 197px;
+    color: gray;
+    font-size: 13px;
+}
+
+.navbar .date .date-content {
+    display: flex;
+}
+
+/* media querry */
+
+@media(max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    #links{
+     display: none ;
+    }
+
+   .navbar #logo svg {
+    display: none;
+    }
+   
+    .flex-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+   
+   .hamburger{
+    display: block;
+    }
+}
+
+
+@media(max-width: 400px) {
+ 
+header {
+    padding-bottom: 5px !important;
+}
+
+.navbar {
+ flex-direction: column;
+ justify-content: start;
+}
+
+
+.hamburger{
+   position: absolute;
+   left: 0;
+}
+
+.navbar.flex-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar #logo {
+    display: flex;
+    justify-content: left;
+    margin: 0%;
+}
+
+.navbar #logo svg {
+    display: block;
+    width: 35px;
+}
+
+.navbar .date {
+    display: flex;
+    background: #E5E5E5;
+    width: 100%;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+} 
+@media(max-width: 270px){
+    .hamburger{
+        right: 0;
+       position: relative;
+    }
+}
